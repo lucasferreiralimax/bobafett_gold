@@ -1,0 +1,37 @@
+.eye
+  box-shadow inset 0 0 5px 2px rgba(#000, .4), 0 1px 0 1px rgba(#fff, .7)
+
+.eye, .eye .piece
+  background eyeOutGlass
+  border-radius 0 0 35% 35%
+  height 40px
+  width 200px
+  margin 0 auto
+  transform translateY(100px)
+  z-index 10
+  position relative
+  &:before
+    content ''
+    display block
+    background eyeOutGlass
+    height 152px
+    transform translateY(32px)
+    border-radius 0 0 45px 45px
+    width 65px
+    margin 0 auto
+    z-index 1
+  .piece
+    background #000
+    height 20px
+    width 180px
+    border-radius 0 0 100% 100%
+    position absolute
+    left calc(50% - 90px)
+    top -90px
+    box-shadow inset 0 1px 0 rgba(#fff, .7)
+    &:before
+      transform translateY(1px)
+      height 174px
+      border-radius 10px
+      width 35px
+      background #000
