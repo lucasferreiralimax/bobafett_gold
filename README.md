@@ -1,6 +1,6 @@
-# webpack_work
+# Bobafett Gold CSS
 
-Um projeto para iniciar com webpack em seu workflow usando stylus.js, pug.js, babel e webpack-dev-server como livereload dos arquivos.
+Um projeto do Bobafett Gold feito em CSS usando stylus.js, pug.js
 
 ## Instale as dependências do projeto
 
