@@ -5,22 +5,51 @@ body
   align-items center
   justify-content space-between
   flex-direction column
-  height 100vh
+  min-height 100vh
   background url('https://i.imgur.com/40E7NAQ.jpg') no-repeat
   background-size cover
-  min-height 500px
   padding 1em
+  margin 0
+  box-sizing border-box
+
+a
+  font-family Arial
+  text-decoration none
+  background #fff
+  color #000
+  padding 2px
+  &:hover
+    background #000
+    color #fff
+
+main
+  background rgba(#000, .8)
+  color #fff
+  padding 1em
+  font-family Arial
+  h1
+    margin 0
+
+main.home
+  background transparent
+  min-height 400px
+  display flex
+  align-items center
+  justify-content space-between
+  flex-direction column
 
 footer
   padding 2em
+  box-sizing border-box
 
 cite
   font-size 2em
-  padding 1em 1em 2em
+  padding 1em
   text-shadow 0 0 10px #fff, 0 0 10px #fff, 0 0 10px #fff
   border-radius 20px 20px 0 0
   background linear-gradient(#fff, transparent)
   user-select none
+  display inline-block
   small
     font-size 18px
 
