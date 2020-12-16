@@ -59,9 +59,9 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       hash: true,
-      template: './src/page/exemplo.pug',
+      template: './src/page/about.pug',
       favicon: './src/assets/favicon.ico',
-      filename: 'page/exemplo.html'
+      filename: 'page/about.html'
     }),
     new MiniCssExtractPlugin({
       filename: 'css/[name].css'
