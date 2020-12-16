@@ -1,6 +1,7 @@
 # Bobafett Gold CSS
 
 Um projeto do Bobafett Gold feito em CSS usando stylus.js, pug.js
+[Live preview Project Online bobafett-gold.web.app](https://bobafett-gold.web.app)
 
 ## Instale as dependências do projeto
 
